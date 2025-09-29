@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #091E56;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 60px;
+  margin-bottom: -25px;
+}
+
+.title-logo {
+  width: 180px;
+  height: 50px;
+}
+
+.main-nav a {
+  margin: 0 15px;
+  font-size: 17px;
+  color: #344193;
+  text-decoration: none;
+}
+
+.auth-links .btn {
+  margin-left: 20px;
+}
+
+.btn {
+  padding: 10px 30px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.signin {
+    background: #091E56;
+    color: #fff;
+}
+
+.signup {
+    background: #FF0B29;
+    color: #fff;
+}
+
+.accountsetup {
+    background: #F2DE27;
+    color: #000;
+}
+
+.bookademo {
+    background: #4E6AC6;
+    color: #fff;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero h4, .hero h5 {
+  font-size: 45px;
+  margin-bottom: 5px;
+}
+.hero .para1, .hero .para2 {
+  font-size: 30px;
+  font-weight: 550;
+  color: #4E7DD5;
+  margin: 5px 0;
+}
+
+.text2 {
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+.divider, .divider1 {
+  border: none;
+  height: 1px;
+  background: #D5D5D5;
+  margin: 25px auto;
+}
+
+.divider1 {
+    width: 10%;
+}
+
+.cta-row {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 20px 0;
+}
+
+.viewplans-container {
+  margin-top: 15px;
+}
+
+.viewplans {
+  color: #4E6AC6;
+  font-size: 22px;
+  font-weight: 550;
+}
+
+.illustrations {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+.intro-img, .mid-img {
+  max-width: 300px;
+  height: auto;
+}
