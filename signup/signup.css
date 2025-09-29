@@ -37,8 +37,8 @@ body {
     margin-right: 200px;
 }
 
-.signup-text{
-    margin-top: 16px;
+.signup-details{
+    margin-top: 7px;
     font-weight: light;
     font-size: 25px;
     color: black;
@@ -85,4 +85,5 @@ body {
 .already-have-account, .signup-difficulty{
     margin-top: 25px;
     font-size: 15px;
+
 }
