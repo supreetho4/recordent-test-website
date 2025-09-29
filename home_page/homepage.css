@@ -9,12 +9,39 @@ body {
     color: #091E56;
 }
 
+.topper{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: 0px solid black;
+  padding: 10px 100px 10px 40px; /*top right bottom left*/
+  margin-top: -20px;
+  margin-right: -20px;
+  border-radius: 20px 0px 0px 20px ;
+  background-color: #4F6BC7;
+}
+
+.topper a{
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+}
+
+.topper a:hover{
+  text-decoration: underline;
+}
+
+.gap{
+  padding-right: 30px;
+}
+
 .top {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 15px 60px;
-  margin-bottom: -25px;
+  margin-bottom: -70px;
 }
 
 .title-logo {
@@ -120,3 +147,4 @@ body {
   max-width: 300px;
   height: auto;
 }
+
