@@ -14,7 +14,7 @@ body {
   top: 20px;
   right: 20px;
   border: 0px solid black;
-  padding: 10px 100px 10px 40px; /*top right bottom left*/
+  padding: 10px 100px 10px 40px;
   margin-top: -20px;
   margin-right: -20px;
   border-radius: 20px 0px 0px 20px ;
@@ -40,7 +40,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 60px;
+  padding: 50px 60px;
   margin-bottom: -70px;
 }
 
@@ -147,4 +147,3 @@ body {
   max-width: 300px;
   height: auto;
 }
-
