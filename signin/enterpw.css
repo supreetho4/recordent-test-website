@@ -125,7 +125,7 @@ body {
     height: 280px;
 }
 
-.write-input {
+#pw-field {
   width: 80%;
   height: 38px;
   padding: 6px 10px;
@@ -133,12 +133,6 @@ body {
   border: 1px solid #999;
   margin-top: 8px;
   margin-bottom: 15px;
-}
-
-.write-input:focus {
-  outline: none;
-  border-color: #091E56;
-  box-shadow: 0 0 4px #091E56;
 }
 
 .signin-top{
@@ -153,25 +147,19 @@ body {
     background-color: #091E56;
 }
 
-.otp, .pw{
-    display:inline-block;
-    margin-top: 40px;
-    border: 1px solid #F2DE26;
-    padding: 5px 25px 5px 25px;
-    background-color: #F2DE26;
-    border-radius: 18px;
-    text-decoration: none;
-    color: #43537F;
+button {
+  font-size: 18px;
+  margin-left: 15px;
+  padding: 5px 25px 5px 25px;
+  color: #43537F;
+  border: 1px solid #F2DE26;
+  border-radius: 18px;
+  background-color: rgb(244,244,244);
+  cursor: pointer;
 }
 
-.otp{
-    margin-right: 10px;
-    background-color: #F4F4F4;
-}
-
-.pw{
-    margin-left: 10px;
-    background-color: #F2DE26;
+button:hover{
+  background-color: #F2DE26;
 }
 
 .forgot-pw{
@@ -197,3 +185,4 @@ body {
     font-size: 13px;
     margin-top: 25px;
 }
+
