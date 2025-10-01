@@ -23,56 +23,17 @@
                     <h1 class="signup-text">Sign Up</h1>
                     <div class="inside-border">
                         <form action="/signup" method="post" class="signup-details">
-                            <input
-                            type="text"
-                            id="userField"
-                            name="userField"
-                            class="write-input1"
-                            placeholder="Business / Organization Name *"
-                            required
-                            >
+                            <input type="text" id="name-field" name="name-field" placeholder="Business / Organization Name *" required/>
+                            <input type="text" id="email-field" name="email-field" placeholder="Email Address *" required/>
+                            <p id="email-error"></p>
+                            <input type="number" id="mobile-field" name="mobile-field" placeholder="Mobile Number *" required/>
+                            <p id="mobile-error"></p>
+                            <input type="password" id="pw-field" name="pw-field" placeholder="Password *" required/>
+                            <p id="pw-error"></p>
+                            <input type="password" id="pwconfirm-field" name="pw-confirm-field" placeholder="Confirm Password *" required/>
+                            <p id="pwconfirm-error"></p>
                         </form>
-                        <form action="/signup" method="post" class="signup-details">
-                            <input
-                            type="text"
-                            id="userField"
-                            name="userField"
-                            class="write-input2"
-                            placeholder="Email Address *"
-                            required
-                            >
-                        </form>
-                        <form action="/signup" method="post" class="signup-details">
-                            <input
-                            type="number"
-                            id="userField"
-                            name="userField"
-                            class="write-input2"
-                            placeholder="Mobile Number *"
-                            required
-                            >
-                        </form>
-                        <form action="/signup" method="post" class="signup-details">
-                            <input
-                            type="text"
-                            id="userField"
-                            name="userField"
-                            class="write-input2"
-                            placeholder="Password *"
-                            required
-                            >
-                        </form>
-                        <form action="/signup" method="post" class="signup-details">
-                            <input
-                            type="text"
-                            id="userField"
-                            name="userField"
-                            class="write-input2"
-                            placeholder="Confirm Password *"
-                            required
-                            >
-                        </form>
-                        <a href="#" class="continue-btn">Continue</a>
+                        <button id="continue-btn" type="button">Continue</button>
                     </div>
                     <div>
                         <h1 class="already-have-account">Already have an account? <a href="../signin/signin.html">Sign in</a></h1>
@@ -81,9 +42,11 @@
                 </div>
             </div>
         </section>
+        <script src="signup.js"></script>
     </body>
 
 </html>
+
 
 
 
