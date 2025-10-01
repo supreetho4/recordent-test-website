@@ -47,26 +47,21 @@
         </div>
         <div class="signin-section">
             <h1 class="signin-top">Sign in</h1>
-            <form action="/signin" method="post" class="signin-form">
-                <input
-                type="text"
-                id="userField"
-                name="userField"
-                class="write-input"
-                placeholder="Password"
-                required
-            />
+            <form action="/signin" method="post" class="pw-form">
+                <input type="password" id="pw-field" name="pw-field" placeholder="Password" required/>
             </form>
-            <a href="Get OTP/getotp.html" class="otp">Get OTP</a>
-            <a href="Password/password.html" class="pw">Proceed</a>
+            <p id="pw-error"></p>
+            <button id="submit-btn" type="button">Submit</button>
             <br>
             <a href="ForgotPassword.html" class="forgot-pw">Forgot Password?</a>
             <p class="agreement">I/we have read and agree to the <a class="agreement-anchor" href="enduseragreement.html">End User License Agreement</a> by signing in</p>
             <p class="no-account">Don't have an account? <a href="../signup/signup.html">Sign Up</a></p>
         </div>
     </div>
+    <script src="enterpw.js"></script>
     </body>
 </html>
+
 
 
 
