@@ -54,7 +54,7 @@ body {
 }
 
 #email-error, #pw-error, #pwconfirm-error{
-    font-size: 10px;
+    font-size: 5px;
     padding: -8px 0px -8px 0px;
 }
 
@@ -94,5 +94,6 @@ button:hover {
     margin-top: 25px;
     font-size: 15px;
 }
+
 
 
