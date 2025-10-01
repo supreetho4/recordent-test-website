@@ -125,7 +125,7 @@ body {
     height: 280px;
 }
 
-.write-input {
+#user-field {
   width: 80%;
   height: 38px;
   padding: 6px 10px;
@@ -135,7 +135,7 @@ body {
   margin-bottom: 15px;
 }
 
-.write-input:focus {
+#user-field:focus {
   outline: none;
   border-color: #091E56;
   box-shadow: 0 0 4px #091E56;
@@ -153,7 +153,27 @@ body {
     background-color: #091E56;
 }
 
-.otp, .pw{
+#help{
+    font-size: 12px;
+    padding-bottom: 6px;
+}
+
+button{
+    font-size: 18px;
+    margin-left: 20px;
+    padding: 5px 25px 5px 25px;
+    color: #43537F;
+    border: 1px solid #F2DE26;
+    border-radius: 18px;
+    background-color: rgb(244,244,244);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #F2DE26;
+}
+
+.otp{
     display:inline-block;
     margin-top: 40px;
     border: 1px solid #F2DE26;
@@ -162,15 +182,11 @@ body {
     border-radius: 18px;
     text-decoration: none;
     color: #43537F;
-}
-
-.otp{
     margin-right: 10px;
     background-color: #F4F4F4;
 }
 
-.pw{
-    margin-left: 10px;
+.otp:hover{
     background-color: #F2DE26;
 }
 
@@ -196,4 +212,5 @@ body {
     display: inline-block;
     font-size: 13px;
     margin-top: 25px;
+
 }
