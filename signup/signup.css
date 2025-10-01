@@ -53,29 +53,37 @@ body {
     width: 430px;
 }
 
-.write-input1, .write-input2{
+#name-error, #email-error, #mobile-error, #pw-error, #pwconfirm-error{
+    font-size: 15px;
+    padding: -8px 0px -8px 0px
+}
+
+#name-field, #email-field, #mobile-field, #pw-field, #pwconfirm-field{
     font-weight: lighter;
     padding-left: 5px;
     font-size: 16px;
     width: 80%;
     height: 47px;
+    margin-top: 18px;
     margin-bottom: 20px;
     color: grey;
 }
 
-.write-input1{
-    margin-top: 18px;
-}
-
-.continue-btn{
+button{
     display:inline-block;
-    margin-bottom: 20px;
+    font-size: 15px;
+    margin: 10px 0px 20px 0px;
     border: 1px solid #F2DE26;
-    padding: 5px 25px 5px 25px;
-    background-color: #F2DE26;
+    padding: 8px 35px 8px 35px;
+    background-color: rgb(244,244,244);
     border-radius: 18px;
     text-decoration: none;
     color: #43537F;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #F2DE26;
 }
 
 .mid-section{
@@ -85,7 +93,4 @@ body {
 .already-have-account, .signup-difficulty{
     margin-top: 25px;
     font-size: 15px;
-
 }
-
-
