@@ -47,27 +47,24 @@
         </div>
         <div class="signin-section">
             <h1 class="signin-top">Sign in</h1>
-            <form action="/signin" method="post" class="signin-form">
-                <input
-                type="text"
-                id="userField"
-                name="userField"
-                class="write-input"
-                placeholder="Email ID / Mobile Number *"
-                required
-            />
+            <form id="signin-form" action="/signin" method="post">
+                <input type="text" id="user-field" name="user-field" placeholder="Email ID / Mobile Number *" required/>
             </form>
-            <a href="Get OTP/getotp.html" class="otp">Get OTP</a>
-            <a href="../password/enterpw.html" class="pw">Enter Password</a>
+            <p id="help">*Get OTP for Mobile Number / Submit for Email ID</p>
+            <p id="error"></p>
+            <a href="#" class="otp">Get OTP</a>
+            <button id="submit-btn" type="button">Submit</button>
             <br>
             <a href="ForgotPassword.html" class="forgot-pw">Forgot Password?</a>
             <p class="agreement">I/we have read and agree to the <a class="agreement-anchor" href="enduseragreement.html">End User License Agreement</a> by signing in</p>
             <p class="no-account">Don't have an account? <a href="../signup/signup.html">Sign Up</a></p>
         </div>
     </div>
+    <script src="signin.js"></script>
     </body>
 
 </html>
+
 
 
 
