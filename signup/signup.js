@@ -58,10 +58,11 @@ continueButton.addEventListener('click', function(event){
     if (pwConfirm === pw){
         pwConfirmError.textContent = "Password matches";
         pwConfirmError.style.color = "green";
-        window.location.href = "../signup/signup.html";
+        window.location.href = "../signin/signin.html";
     }else{
         pwConfirmError.textContent = "Password doesn't match";
         pwConfirmError.style.color = "red"
     }
 });
+
 
