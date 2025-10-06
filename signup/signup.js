@@ -21,9 +21,12 @@ continueButton.addEventListener('click', function(event){
 
     const emailPattern = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.(com|net|org|in)$/;
 
+    const isValid = true;
+
     if (!emailPattern.test(email)){
         emailError.textContent = "Please enter a valid address";
         emailError.style.color = "red";
+        isValid = false;
     }else{
         emailError.textContent = "Complete";
         emailError.style.color = "green";
@@ -38,18 +41,23 @@ continueButton.addEventListener('click', function(event){
     if (!minLength) {
         pwError.textContent = "Password must be at least 8 characters long.";
         pwError.style.color = "red";
+        isValid = false;
     } else if (!hasUpper) {
         pwError.textContent = "Password must include at least one uppercase letter.";
         pwError.style.color = "red";
+        isValid = false;
     } else if (!hasLower) {
         pwError.textContent = "Password must include at least one lowercase letter.";
         pwError.style.color = "red";
+        isValid = false;
     } else if (!hasNumber) {
         pwError.textContent = "Password must include at least one number.";
         pwError.style.color = "red";
+        isValid = false;
     } else if (!hasSpecial) {
         pwError.textContent = "Password must include at least one special character.";
         pwError.style.color = "red";
+        isValid = false;
     } else {
         pwError.textContent = "Strong password!";
         pwError.style.color = "green";
@@ -58,11 +66,16 @@ continueButton.addEventListener('click', function(event){
     if (pwConfirm === pw){
         pwConfirmError.textContent = "Password matches";
         pwConfirmError.style.color = "green";
-        window.location.href = "../signin/signin.html";
     }else{
         pwConfirmError.textContent = "Password doesn't match";
         pwConfirmError.style.color = "red"
+        isValid = false;
+    }
+
+    if (isValid) {
+        window.location.href = "../signin/signin.html";
     }
 });
+
 
 
